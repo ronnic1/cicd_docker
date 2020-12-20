@@ -4,8 +4,8 @@ services:
     app:
         build: .
         command: sh -c "python main.py"
-        # Replace uxername to your Docker Hub user
-        image: ronnic/cicd_docker:latest
+        # Replace username to your Docker Hub user
+        image: username/repo:latest
         ports:
             - "80:8000"
         volumes:
